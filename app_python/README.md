@@ -4,8 +4,7 @@ This is a simple web application that displays the current time in Moscow. The a
 
 ## Table of Contents
 
-- [Python App](#Moscow Time Web-Application)
-  - [Table of Contents](#table-of-contents)
+- [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Requirements](#requirements)
     - [Installation Steps](#installation-steps)
