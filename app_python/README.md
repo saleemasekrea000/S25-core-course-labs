@@ -3,14 +3,14 @@
 This is a simple web application that displays the current time in Moscow. The application is developed using Python and FastAPI framework.
 
 ## Table of Contents
-- [Python App](#python-app)
+
+- [Python App](#Moscow Time Web-Application)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Requirements](#requirements)
     - [Installation Steps](#installation-steps)
 
-
-# Installation
+## Installation
 
 ### Requirements
 
