@@ -1,8 +1,8 @@
 from datetime import datetime
-import pytz
 
-from fastapi.templating import Jinja2Templates
+import pytz
 from fastapi import Request
+from fastapi.templating import Jinja2Templates
 
 templates = Jinja2Templates(directory="app_python")
 
