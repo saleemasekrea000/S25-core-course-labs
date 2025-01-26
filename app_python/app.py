@@ -1,3 +1,7 @@
+"""
+Main application file. Contains the route information and necessary setups.
+"""
+
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 
