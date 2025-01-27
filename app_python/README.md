@@ -7,7 +7,8 @@ This is a simple web application that displays the current time in Moscow. The a
 - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Requirements](#requirements)
-    - [Installation Steps](#installation-steps)
+    - [Manual](#manual)
+    - [Docker](#docker)
 
 ## Installation
 
@@ -16,7 +17,7 @@ This is a simple web application that displays the current time in Moscow. The a
 - Python 3.8 or higher
 - `pip` package manager
 
-### Installation Steps
+### Manual
 
 - Clone this branch to your local machine
 
@@ -56,3 +57,25 @@ uvicorn app_python.app:app
 The application will be available at [localhost:8000](http://localhost:8000/)
 
 ![First Opening](img/2.png)
+
+## Docker
+
+- To build the image, use the following command:
+
+```bash
+docker build -t saleemasekrea/app_python .
+```
+
+To pull the image from the Docker Hub, use the following command:
+
+```bash
+docker pull saleemasekrea/app_python:latest
+```
+
+After building or pulling the image, the container can be run with the following command:
+
+```bash
+docker run -p 8000:8000 saleemasekrea/app_python
+```
+
+The application will be available at [localhost:8000](http://localhost:8000/)
